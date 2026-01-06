@@ -122,13 +122,14 @@ CREATE TABLE return_status
 *** HOW TO A RELATION B/W TABLES 
 *** WHAT IS FOREIGN KEY
 -> 
+```
 FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
 FOREIGN KEY (branch_id) REFERENCES branch(branch_id)
 FOREIGN KEY (issued_member_id) REFERENCES members(member_id),
 FOREIGN KEY (issued_emp_id) REFERENCES employees(emp_id),
 FOREIGN KEY (issued_book_isbn) REFERENCES books(isbn) 
 
-
+```
 
 *** WHAT IS EDA-> 
 Exploratory Data Analysis (EDA) is the initial, crucial stage of analyzing datasets to understand their main characteristics, uncover patterns, spot anomalies (outliers), test assumptions, and identify relationships between variables, primarily using visual methods (like histograms, scatter plots) and summary statistics (mean, median)
